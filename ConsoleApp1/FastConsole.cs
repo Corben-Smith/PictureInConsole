@@ -58,7 +58,7 @@ public static class FConsole {
         BackgroundColor = background;
         Clear(ForegroundColor, BackgroundColor);
     }
-    static void Maximize() {
+    public static void Maximize() {
         [DllImport("user32.dll")]
         static extern bool ShowWindow(System.IntPtr hWnd, int cmdShow);
 
@@ -176,6 +176,7 @@ public static class FConsole {
         return (character, foreground, background);
     }
 }
+
 
 public readonly record struct PixelValue {
     public readonly ConsoleColor foreground, background;
