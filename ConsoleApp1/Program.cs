@@ -14,6 +14,7 @@ class Program
         //string path = Console.ReadLine();
         FConsole.Clear();
 
+
         while (true)
         {
             DrawImage("ian.png", 12, 16);
