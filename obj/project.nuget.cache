@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XTVXLXi7OfLoPL4A4j21R+HzZVf0iwnzdQojl35D1JYmKH6IBHTMkQeuw6IIyl2wpZimx8Ml7SwFn1fo7x7kPg==",
+  "dgSpecHash": "0BQf4jE1DR6+p1Is7i26BpGxjsIuQGoWQOxzM3iJqZee1kEk1ccoSoAYu4YsZEa1CxwUgbm+lm5DO8RfLhAUiw==",
   "success": true,
-  "projectFilePath": "C:\\CSCI1250\\Self-projects\\img\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\CSCI1250\\Self-projects\\ConsoleImage\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Corbe\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Corbe\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

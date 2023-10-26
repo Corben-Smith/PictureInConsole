@@ -153,6 +153,8 @@ public static class FConsole {
 
     // Drawing the buffer to the screen
     public static void DrawBuffer() {
+        // importing the WriteConsoleOutputW
+        //I belive that the next lines are importing the method from the kernel
         [DllImport("kernel32.dll", SetLastError = true)]
         static extern bool WriteConsoleOutputW(
           SafeFileHandle hConsoleOutput,

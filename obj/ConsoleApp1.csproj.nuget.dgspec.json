@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CSCI1250\\Self-projects\\img\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\CSCI1250\\Self-projects\\ConsoleImage\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\CSCI1250\\Self-projects\\img\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\CSCI1250\\Self-projects\\ConsoleImage\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSCI1250\\Self-projects\\img\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\CSCI1250\\Self-projects\\ConsoleImage\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\CSCI1250\\Self-projects\\img\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\CSCI1250\\Self-projects\\ConsoleImage\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Corbe\\.nuget\\packages\\",
-        "outputPath": "C:\\CSCI1250\\Self-projects\\img\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\CSCI1250\\Self-projects\\ConsoleImage\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Corbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
