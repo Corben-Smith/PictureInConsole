@@ -9,23 +9,16 @@ using FastConsole;
 namespace ImageToConsole;
 public class ConsoleImage
 {
-    public static void DrawImage(string path, int xSkip = 1, int ySkip = 2, int xBuffer = 0, int yBuffer = 0, string title = "Console", bool adjust = false)
+    public static void DrawImage(Bitmap bmp, int xSkip = 1, int ySkip = 2, int xBuffer = 0, int yBuffer = 0, string title = "Console", bool adjust = false)
     {
+        FConsole.Initialize("asdf");
 
-        var root = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.ToString();
-        var imgPath = root + @$"\images\{path}";
-
-        Bitmap bmp = new Bitmap(imgPath);
-
-    
-
-        string[] widthColor = new string[bmp.Width];
 
         short yi = (short)yBuffer;
         short xi = (short)xBuffer;
 
 
-
+        
         for (short y = 0; y < bmp.Height; y += (short)ySkip)
         {
 
@@ -44,6 +37,7 @@ public class ConsoleImage
             yi++;
             xi = (short)xBuffer;
         }
+        
 
         FConsole.DrawBuffer();
     }
